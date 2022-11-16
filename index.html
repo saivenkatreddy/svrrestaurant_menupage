@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<title>First Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <button class="tablink" onclick="openPage('Home', this, '#e67e22')" id="defaultOpen">Home</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')">About</button>
+  <button class="tablink" onclick="openPage('Contact', this, '#9b59b6')">Menu</button>
+  <button class="tablink" onclick="openPage('About', this, '#34495e')" z>Contact us</button>
+  <h1>This is not just a website. This is a home for food.</h1>
+  <br>
+  <div>
+    Enter your name : <input type="text" id="a">
+    <button onclick="myFunction()">Enter</button>
+    <h2 id="b"></h2>
+  </div>
+  <p>Today's specials:</p>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img
+        src="http://www.thecrookedwell.com/wp-content/uploads/2021/11/CW_Harrywinteringham.uk-96-of-96_LR-321-1700x1000.jpg"
+        style="width:100%">
+      <div class="text">Chicken & Beans</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img
+        src="https://www.mashed.com/img/gallery/why-reddit-says-you-should-never-become-a-chef/l-intro-1640880567.jpg"
+        style="width:100%">
+      <div class="text">Tandoori Fried Chicken</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://www.volpifoods.com/wp-content/uploads/2021/09/VOLPI_Sandwich-Small-Size-1700x1000.jpg"
+        style="width:100%">
+      <div class="text">Ham & Cheese</div>
+    </div>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <h1>Lunch Menu</h1>
+  <h3>Chicken Specials for £10</h3>
+   <div class="row">
+    <div class="column">
+      <div class="center">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="fd">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg"
+                  alt="Avatar" style="width:300px;height:300px;">
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h1>Hyderabadi Chicken Dum Biryani</h1>
+              <p>Rice & Chicken</p>
+              <p>Rating : 4.6 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="center">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="fd">
+                <img src="https://i.pinimg.com/originals/0f/13/7d/0f137d2a243f7b63e5716ab4c10c3ee3.jpg"
+                  alt="Avatar" style="width:300px;height:300px;">
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h1>South Indian Thali</h1>
+              <p>Rice & Curries</p>
+              <p>Rating : 4.3 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="center">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="fd">
+                <img src="https://www.vidhyashomecooking.com/wp-content/uploads/2020/09/GowriHabbaLunchMenuFeature-645x650.jpg"
+                  alt="Avatar" style="width:300px;height:300px;">
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h1>Kerala Thali</h1>
+              <p>Dosa & Curries</p>
+              <p>Rating : 4.2 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>Breakfast Menu</h1>
+  <p>Try some of our new recipes and get amazed by their delicious taste</p>
+
+  <div class="ps">
+    <div class="row">
+      <div class="column">
+        <img src="https://www.tiffin.com/blog/images/blogs/blog10/images/5.jpg"
+          style="width:100%">
+      </div>
+      <div class="column">
+        <img src="https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558340?k=20&m=1024558340&s=612x612&w=0&h=30XScxXJ-EPLeNh9orcsKa4En-WZnWdsh9hrFpHVaXQ="
+          style="width:100%">
+      </div>
+      <div class="column">
+        <img src="https://images.unsplash.com/photo-1624374053855-39a5a1a41402?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80"
+          style="width:100%">
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <h1>Mithai</h1>
+      <p>Thiyyaguntadhi</p>
+      <p>Rating : 4.8 </p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div id="Home" class="tabcontent">
+    <h3>Get amazed with our new dishes</h3>
+    <p>Good food makes good mood</p>
+  </div>
+
+  <h1>Sweets</h1>
+  <h3>A variety of sweets can be selected from our collection</h3>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img
+          src="https://media.istockphoto.com/photos/indian-sweets-picture-id523041362?k=20&m=523041362&s=612x612&w=0&h=BWHz79SBzTF2sZMd_tMoSbKvyZfDUEL9CyXhvSlgwbc="
+          alt="Avatar" class="center" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>Mithai</h1>
+        <p>Thiyyaguntadhi</p>
+        <p>Rating : 4.8 </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="News" class="tabcontent">
+    <h3>Indian Cuisines</h3>
+    <p>We know what you think about Indian food</p>
+    <p>BIRYANI !!!</p>
+    <p>You are absolutely right</p>
+    <p>Dive into our Biryani collection</p>
+
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <h3>Select one of the dishes from below</h3>
+    <p>Get started with the starters for an amazing experience of dine in</p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>You can now connect with us</h3>
+    <p>Mobile No:- +44 7724845678</p>
+  </div>
+  <script>
+
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    function openPage(pageName, elmnt, color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+
+    document.getElementById("defaultOpen").click();
+
+    function myFunction() {
+      let x = document.getElementById("a").value;
+      document.getElementById("b").innerHTML = 'Welcome ' + x + '. Enjoy our variety of foods';
+    }
+    
+  </script>
+  <p>Try these new items from the menu</p>
+
+  <div class="parallax"></div>
+
+  <div style="height:400px;background-color:#7f8fa6;font-size:14px">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg"
+            alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Hyderabadi Chicken Dum Biryani</h1>
+          <p>Rice & Chicken</p>
+          <p>Rating : 4.6 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="parallax"></div>
+
+  <div style="height:400px;background-color:#7f8fa6;font-size:14px">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg"
+            alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Hyderabadi Chicken Dum Biryani</h1>
+          <p>Rice & Chicken</p>
+          <p>Rating : 4.6 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="parallax"></div>
+</body>
+
+</html>
